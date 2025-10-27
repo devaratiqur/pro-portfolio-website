@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+p{
+    margin: 10px 0 20px;
+}
+.clr{
+    clear: both;
+    overflow: hidden;
+}
+section{
+    height: 500px;
+    padding: 50px 0;
+}
+.hero-area{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hulf-width{
+    width: 45%;
+    float: left;
+    margin: 0 2%;
+    padding: 0 .5%;
+}
+.hulf-width img{
+    width: 500px;
+}
+.text-primary{
+    color: orange;
+}
+.hero-btn {
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 25px;
+	display: inline-block;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 700;
+	background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+.dream-area{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experince-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-expriance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding: 20px;
+    background: #fff;
+}
+#left-border {
+	border-left: 7px solid;
+	border-image: linear-gradient(180deg, lightsalmon, tomato);
+	border-image-slice: 1;
+}
+#left-border-slice {
+	border-left: 7px solid;
+	border-image: linear-gradient(180deg, blue, cyan);
+	border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
